@@ -7,60 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About the Project
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Bio-Data and Training management system is a software application built using Laravel and MySQL that helps organizations manage their employee details and training programs. It is designed to streamline the process of planning, delivering, and evaluating training activities.
+#### Features :-
+- Register and Login
+- Password Encryption using MD5
+- Easily create, read, update and delete user details.
+- Create new trainings and view them.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Getting Started
+- Download the latest version of XAMPP from [Apache Friends](https://www.apachefriends.org/).
+- Then install [Composer](https://getcomposer.org/download/) on your local machine. Make sure you install Composer in the `xampp` folder created in the above step.
+- Refer to [this guide](https://www.thecodedeveloper.com/install-composer-windows-xampp/) for a detailed tutorial on how to set up XAMPP with Composer.
+- Create a Laravel project in the `htdocs` folder inside the `xampp` folder by running the command inside `htdocs` folder : `composer create-project laravel/laravel hrd-app`
+- Next, download the project from the repository. Copy the following folder - `app` `bootstrap` `database` `public` `resources` `routes` and replace them in `hrd-app`
+- Open the link `http://localhost/phpmyadmin/`.
+- Create a new database and import the file `resources > query > cwc.sql`. You will see some sample data in the database you just created.
+- Now open the `.env` file and make the changes in your connection variables.![image](https://github.com/kaavyabaranwal/HRD-Support-Portal-2.0/assets/99530509/0ec89e8b-9b84-48e3-b0bc-5ac4822a306f)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Open a terminal inside the project folder `hrd-app`.
+- Run the command `php artisan serve` to start Laravel's local development server. Click on the link displayed in the terminal to view the project in your browser
+- Either create a new user or use `sample@user` and `user` as sample login.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
