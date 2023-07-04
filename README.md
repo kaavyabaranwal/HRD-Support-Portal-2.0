@@ -32,11 +32,8 @@ Bio-Data and Training management system is a software application built using La
 - Run the command `php artisan serve` to start Laravel's local development server. Click on the link displayed in the terminal to view the project in your browser
 - Either create a new user or use `sample@user` and `user` as sample login.
 
-### Working Process
-- [Simple CRUD Application](https://github.com/kaavyabaranwal/CRUD-in-PHP).
-- [HRD support portal 1.0 - PHP Version](https://github.com/kaavyabaranwal/HRD-Support-Portal-1.0/)
 
-### Features and Interfaces
+## Features and Interfaces
 
 1. Login Page
    - Login with the provided user id and password
@@ -65,6 +62,11 @@ Bio-Data and Training management system is a software application built using La
    - All the trainings posted can be viewed here.
    - Update and delete options for trainings are present on this page.
      ![image](https://github.com/kaavyabaranwal/HRD-Support-Portal-1.0/assets/99530509/8cd7e8bf-86fb-42b0-86f0-7f191acd6328)
+
+## Working Process
+The following prototypes were made before this app was built in Laravel :-
+- [Simple CRUD Application](https://github.com/kaavyabaranwal/CRUD-in-PHP).
+- [HRD support portal 1.0 - PHP Version](https://github.com/kaavyabaranwal/HRD-Support-Portal-1.0/)
 
 ## Need help?
 
