@@ -22,8 +22,13 @@ Bio-Data and Training management system is a software application built using La
 - Download the latest version of XAMPP from [Apache Friends](https://www.apachefriends.org/).
 - Then install [Composer](https://getcomposer.org/download/) on your local machine. Make sure you install Composer in the `xampp` folder created in the above step.
 - Refer to [this guide](https://www.thecodedeveloper.com/install-composer-windows-xampp/) for a detailed tutorial on how to set up XAMPP with Composer.
-- Next, download the project from the repository. Download it in the `htdocs` folder inside the `xampp` folder.
-- Open a terminal inside the project folder created above.
+- Create a Laravel project in the `htdocs` folder inside the `xampp` folder by running the command inside `htdocs` folder : `composer create-project laravel/laravel hrd-app`
+- Next, download the project from the repository. Copy the following folder - `app` `bootstrap` `database` `public` `resources` `routes` and replace them in `hrd-app`
+- Open the link `http://localhost/phpmyadmin/`.
+- Create a new database and import the file `resources > query > cwc.sql`. You will see some sample data in the database you just created.
+- Now open the `.env` file and make the changes in your connection variables.![image](https://github.com/kaavyabaranwal/HRD-Support-Portal-2.0/assets/99530509/0ec89e8b-9b84-48e3-b0bc-5ac4822a306f)
+
+- Open a terminal inside the project folder `hrd-app`.
 - Run the command `php artisan serve` to start Laravel's local development server. Click on the link displayed in the terminal to view the project in your browser
- 
+- Either create a new user or use `sample@user` and `user` as sample login.
 
