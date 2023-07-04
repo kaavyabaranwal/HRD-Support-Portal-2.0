@@ -61,7 +61,7 @@
 							</div>
 							<div class="form-group">
 								<span class="mdi mdi-lock icon-in"></span>
-								<input type="text" name="password" id="" class="form-control icon-inside"
+								<input type="password" name="password" id="" class="form-control icon-inside"
 									placeholder="Password">
 
 							</div>
