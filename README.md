@@ -40,8 +40,9 @@ Bio-Data and Training management system is a software application built using La
 
 1. Login Page
    - Login with the provided user id and password
-   - SHA 256 Password hashing.
-     ![image](https://github.com/kaavyabaranwal/HRD-Support-Portal-1.0/assets/99530509/697c3f6d-1c41-43a3-b5ea-2bee36c5a877)
+   - MD5 Password encryption.
+     ![image](https://github.com/kaavyabaranwal/HRD-Support-Portal-2.0/assets/99530509/a7c9d2f4-7c1f-4a0c-bde8-a6ad5fcea259)
+
 
 
 2. Employee page
